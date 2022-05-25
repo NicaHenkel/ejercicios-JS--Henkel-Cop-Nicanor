@@ -18,6 +18,7 @@ function mostrarMenu (){
 
 function venderProducto (opcion){
     if (opcion===1){
+        
         pedirDinero (1);
     }
 
@@ -39,7 +40,7 @@ function venderProducto (opcion){
 }
 
 function pedirDinero (numMin){
-    
+
     while (dineroIngresado<numMin){
         let dinero = Number (prompt ("ingrese un monto"));
 
